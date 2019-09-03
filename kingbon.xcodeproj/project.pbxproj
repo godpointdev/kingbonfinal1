@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF31BDC221DCFBB500197812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF31BDC021DCFBB500197812 /* Main.storyboard */; };
 		BF44D91721897AF1007C4FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D91621897AF1007C4FD6 /* AppDelegate.swift */; };
 		BF44D91921897AF1007C4FD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D91821897AF1007C4FD6 /* ViewController.swift */; };
-		BF44D91C21897AF1007C4FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF44D91A21897AF1007C4FD6 /* Main.storyboard */; };
 		BF44D91F21897AF1007C4FD6 /* kingbon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF44D91D21897AF1007C4FD6 /* kingbon.xcdatamodeld */; };
 		BF44D92121897AF3007C4FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF44D92021897AF3007C4FD6 /* Assets.xcassets */; };
-		BF44D92421897AF3007C4FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF44D92221897AF3007C4FD6 /* LaunchScreen.storyboard */; };
-		BF44D92F21897AF3007C4FD6 /* kingbonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D92E21897AF3007C4FD6 /* kingbonTests.swift */; };
 		BF44D93A21897AF3007C4FD6 /* kingbonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D93921897AF3007C4FD6 /* kingbonUITests.swift */; };
+		BF44D948218987D0007C4FD6 /* view2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D947218987D0007C4FD6 /* view2.swift */; };
+		BF44D94A2189884B007C4FD6 /* view3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D9492189884B007C4FD6 /* view3.swift */; };
+		BF55F9A62205677C0085874B /* view5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55F9A52205677C0085874B /* view5.swift */; };
+		BF95AA7F21F1C5A00017396D /* view4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95AA7E21F1C5A00017396D /* view4.swift */; };
+		CB3C8D7D22A8CDC200384BEC /* kingbonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D92E21897AF3007C4FD6 /* kingbonTests.swift */; };
+		CB3C8D7E22A8CDC600384BEC /* kingbonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D92E21897AF3007C4FD6 /* kingbonTests.swift */; };
+		CBD84DF822085F30003E9723 /* view6.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD84DF722085F30003E9723 /* view6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF31BDC121DCFBB500197812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF44D91321897AF0007C4FD6 /* kingbon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kingbon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF44D91621897AF1007C4FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF44D91821897AF1007C4FD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF44D91B21897AF1007C4FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF44D91E21897AF1007C4FD6 /* kingbon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kingbon.xcdatamodel; sourceTree = "<group>"; };
 		BF44D92021897AF3007C4FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF44D92321897AF3007C4FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF44D92521897AF3007C4FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF44D92A21897AF3007C4FD6 /* kingbonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kingbonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF44D92E21897AF3007C4FD6 /* kingbonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kingbonTests.swift; sourceTree = "<group>"; };
@@ -49,6 +53,11 @@
 		BF44D93521897AF3007C4FD6 /* kingbonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kingbonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF44D93921897AF3007C4FD6 /* kingbonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kingbonUITests.swift; sourceTree = "<group>"; };
 		BF44D93B21897AF3007C4FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF44D947218987D0007C4FD6 /* view2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view2.swift; sourceTree = "<group>"; };
+		BF44D9492189884B007C4FD6 /* view3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view3.swift; sourceTree = "<group>"; };
+		BF55F9A52205677C0085874B /* view5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view5.swift; sourceTree = "<group>"; };
+		BF95AA7E21F1C5A00017396D /* view4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view4.swift; sourceTree = "<group>"; };
+		CBD84DF722085F30003E9723 /* view6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +110,13 @@
 			children = (
 				BF44D91621897AF1007C4FD6 /* AppDelegate.swift */,
 				BF44D91821897AF1007C4FD6 /* ViewController.swift */,
-				BF44D91A21897AF1007C4FD6 /* Main.storyboard */,
+				BF44D947218987D0007C4FD6 /* view2.swift */,
+				BF44D9492189884B007C4FD6 /* view3.swift */,
+				BF95AA7E21F1C5A00017396D /* view4.swift */,
+				BF55F9A52205677C0085874B /* view5.swift */,
+				CBD84DF722085F30003E9723 /* view6.swift */,
+				BF31BDC021DCFBB500197812 /* Main.storyboard */,
 				BF44D92021897AF3007C4FD6 /* Assets.xcassets */,
-				BF44D92221897AF3007C4FD6 /* LaunchScreen.storyboard */,
 				BF44D92521897AF3007C4FD6 /* Info.plist */,
 				BF44D91D21897AF1007C4FD6 /* kingbon.xcdatamodeld */,
 			);
@@ -190,6 +203,9 @@
 		BF44D90B21897AF0007C4FD6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					ViewController2,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = JIMMY;
@@ -232,9 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF44D92421897AF3007C4FD6 /* LaunchScreen.storyboard in Resources */,
+				BF31BDC221DCFBB500197812 /* Main.storyboard in Resources */,
 				BF44D92121897AF3007C4FD6 /* Assets.xcassets in Resources */,
-				BF44D91C21897AF1007C4FD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +275,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF44D91921897AF1007C4FD6 /* ViewController.swift in Sources */,
+				BF44D94A2189884B007C4FD6 /* view3.swift in Sources */,
 				BF44D91721897AF1007C4FD6 /* AppDelegate.swift in Sources */,
+				CB3C8D7E22A8CDC600384BEC /* kingbonTests.swift in Sources */,
+				BF55F9A62205677C0085874B /* view5.swift in Sources */,
 				BF44D91F21897AF1007C4FD6 /* kingbon.xcdatamodeld in Sources */,
+				BF44D948218987D0007C4FD6 /* view2.swift in Sources */,
+				BF95AA7F21F1C5A00017396D /* view4.swift in Sources */,
+				CBD84DF822085F30003E9723 /* view6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +290,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF44D92F21897AF3007C4FD6 /* kingbonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3C8D7D22A8CDC200384BEC /* kingbonTests.swift in Sources */,
 				BF44D93A21897AF3007C4FD6 /* kingbonUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,20 +318,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF44D91A21897AF1007C4FD6 /* Main.storyboard */ = {
+		BF31BDC021DCFBB500197812 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF44D91B21897AF1007C4FD6 /* Base */,
+				BF31BDC121DCFBB500197812 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF44D92221897AF3007C4FD6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF44D92321897AF3007C4FD6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,6 +364,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 26CP2SDBB9;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -412,6 +426,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 26CP2SDBB9;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -436,16 +451,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26CP2SDBB9;
 				INFOPLIST_FILE = kingbon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JYJE.kingbon;
+				PRODUCT_BUNDLE_IDENTIFIER = ochinnchinntest.kingbon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,16 +472,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26CP2SDBB9;
 				INFOPLIST_FILE = kingbon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JYJE.kingbon;
+				PRODUCT_BUNDLE_IDENTIFIER = ochinnchinntest.kingbon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

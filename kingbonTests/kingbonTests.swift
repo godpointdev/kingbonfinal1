@@ -5,7 +5,7 @@
 //  Created by jimmy on 2018/10/31.
 //  Copyright © 2018 JIMMY. All rights reserved.
 //
-
+/*
 import XCTest
 @testable import kingbon
 
@@ -32,3 +32,4 @@ class kingbonTests: XCTestCase {
     }
 
 }
+*/

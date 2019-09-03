@@ -7,10 +7,20 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    @IBAction func welcome(_ sender: UIButton)
+    {
+        let speechUtterance =  AVSpeechUtterance(string: "WELCOME")
+        speechUtterance.voice = AVSpeechSynthesisVoice(language: "JP")
+        let synth = AVSpeechSynthesizer()
+        synth.speak(speechUtterance)
+    }
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
