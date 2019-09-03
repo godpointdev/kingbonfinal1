@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>kingbon.xcscheme_^#shared#^_</key>
+		<key>BF44D91221897AF0007C4FD6</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF44D92921897AF3007C4FD6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF44D93421897AF3007C4FD6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
